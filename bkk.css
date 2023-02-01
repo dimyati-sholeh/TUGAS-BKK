@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; margin: 0; font-weight: lighter;
+}
+.top {
+    background-image: url(paskibra.jpg ); background-size: cover; height: 90vh; opacity: 90%; z-index: -2;
+}
+.menu img {
+    float: left; width:300px; padding-left: 90px;
+}
+.bghitam {
+    background: black; height: 90vh; position: absolute; top:0; left: 0; right: 0; opacity: 50%; z-index: -3;
+}
+.menu ul{
+    list-style: none;display: inline-flex; float: right; padding-right: 80px; padding-top: 20px;
+}
+.menu ul li{
+    padding-right: 20px; 
+}
+#jurusan {
+     padding-top: 50px; text-align: center; 
+}
+#jurusan h1 p {
+    font-weight: lighter;
+}
+.menu ul li a {
+    text-decoration: none; cursor: pointer; color: white;
+}
+.menu ul li a:hover {
+    color: #1CAAE9;
+}
+.grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr; width: 80%; margin: auto;  
+}
+.depan img {
+    width: 100%; z-index: -3; height: 300px;
+}
+.struktur img {
+    width: 100px;
+}
+.namaguru{
+    width: 1600px;
+}
+.organisasi {
+    text-align: center; font-weight: lighter; padding-top: 50px;
+}
+.organisasi h1 {
+    opacity: 80%;
+}
+.organisasi p{
+    opacity: 50%;
+}
+.grid2 {
+    display: grid; grid-template-columns: 1fr 1fr;
+}
+.organisasi {
+    background-color: black;
+}
+.footer {
+    background: black; color: white; opacity: 90%; padding: 20px;padding-left: 120px;
+}
+.footer p{
+    opacity: 50%;
+}
+.footer a{
+    text-decoration: none; color: white;
+}
+.bkksa img{
+    width: 400px;
+}
+.namaguru img {
+    border-radius: 50%;
+}
+.namaguru h2{
+    color: white;
+}
+.organisasi h1 {
+    color: white;
+}
+.namaguru p {
+    color: white;
+}
+.organisasi p {
+    color: white;
+}
+.namaguru p {
+    color: aqua;
+}
